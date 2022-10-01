@@ -32,3 +32,41 @@ main{
     transform: translate(-63%, 20%);
     height: 18%;
 }
+
+/* H1 */
+.pokemon__data{
+    position: absolute;
+    font-weight: 660;
+    color: #aaa;
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 25px);    /* recebe 3 valores: minimo, 'desejavel' e maximo */
+
+}
+
+.pokemon__name{
+    color: #3a444d;
+    text-transform: capitalize; /* só a primeira letra maiuscula */
+
+}
+
+/* FORM */
+
+.form{
+    position: absolute;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+}
+
+.input__search{
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333; /* box-shadow: x, y, tamanho, cor */
+}
