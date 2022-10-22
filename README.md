@@ -1,7 +1,7 @@
 # pokedex
 Link do site: https://kaiocesarnp.github.io/pokedex/
 
-É um dispositivo eletrônico criado e projetado para catalogar e fornecer informações sobre as várias espécies de Pokémon.
+Pokedex é um dispositivo eletrônico criado e projetado para catalogar e fornecer informações sobre as várias espécies de Pokémon.
 
 Estruturado em HTML, estilizado em CSS e implementado em JS. 
 
