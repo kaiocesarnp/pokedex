@@ -1,0 +1,65 @@
+@use 'variables'
+@use 'mixins'
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap')
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Oxanium', cursive
+
+body
+    text-align: center
+    background: variables.$background-color
+    min-height: 100vh
+
+main
+    display: inline-block
+    margin-top: 2%
+    padding: 15px
+    position: relative
+
+.pokedex
+    width: 100%
+    max-width: 425px
+
+.pokemon__image
+    position: absolute
+    bottom: 55%
+    left: 50%
+    transform: translate(-63%, 20%)
+    height: 18%
+
+//H1
+.pokemon__data
+    @include mixins.data
+
+.pokemon__name
+    color: variables.$color-name
+    text-transform: capitalize //só a primeira letra maiuscula
+
+
+.form
+    position: absolute
+    width: 65%
+    top: 65%
+    left: 13.5%
+
+.input__search
+    @include mixins.input
+
+.buttons
+    position: absolute
+    bottom: 10%
+    left: 50%
+    width: 65%
+    transform: translate(-57%, 0)
+    display: flex
+    gap: 20px
+
+.button
+    @include mixins.button
+
+    &:active
+        box-shadow: inset -4px 4px 0 #222
+        font-size: 0.9rem
