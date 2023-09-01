@@ -8,3 +8,5 @@ Estruturado em HTML, estilizado com CSS e implementado em JS.
 É possível pesquisar os pokemons por nome ou número. Imagens GIF dos pokemons vem da API https://pokeapi.co/;
 
 Código comentado e site responsivo.
+
+![Imagem da Aplicação](pokedex.jpg)
